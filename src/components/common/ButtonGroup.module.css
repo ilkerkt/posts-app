@@ -1,0 +1,10 @@
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .buttonGroup {
+        flex-direction: column;
+    }
+} 

@@ -1,0 +1,22 @@
+.postscontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.postsgrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .postsgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .postsgrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
